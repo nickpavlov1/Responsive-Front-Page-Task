@@ -85,12 +85,12 @@
     font-weight: 700;
     font-size: 22px;
     color: #3F3F3F;
-    margin-bottom: 15px;
+    margin-bottom: 13px;
     margin-top: 5px;
 }
 
 .step-desc {
-    font-family: 'Roboto', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
@@ -152,11 +152,11 @@
 
 .profile-desc {
     text-align: center;
-    font-size: 19px;
+    font-size: 16px;
     margin-left: 12vw;
     margin-right: 12vw;
     margin-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #3F3F3F;
 }
 
@@ -203,12 +203,13 @@
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 16px;
-    line-height: 130.08%;
-    padding-left: 10px;
     text-transform: uppercase;
     color: #424242;
 }
 
+input {
+    padding-left: 10px;
+}
 .input-btn {
     position: relative;
     width: 290px;
@@ -225,6 +226,57 @@
     font-size: 16px;
     text-transform: uppercase;
     color: #fff;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    padding-right: 26px;
+    padding-left: 26px;
+}
+
+.icon-container {
+    vertical-align: middle;
+    margin-left: 20vw;
+    margin-right: 20vw;
+
+}
+
+.icon {
+    margin-left: 15px;
+    margin-bottom: 25px;
+    margin-right: 15px;
+}
+
+.second-row-icons {
+    margin-left: 15px;
+}
+
+.last-row-icon {
+    margin-left: 46px;
+}
+
+.footer {
+    margin-top: 17px;
+    height: 280px;
+    background: rgba(220, 220, 220, 0.6);
+}
+
+.link-container {
+    display: flex;
+	flex-direction: column;
+    text-align: center;
+}
+
+.link {
+    margin-top: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #373737;
+}
+
+.footer-desc {
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: 16px;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    color: #373737;
 }
