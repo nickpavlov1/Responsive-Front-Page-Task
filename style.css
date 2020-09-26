@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .banner-wrapper {
     width: 100%;
 }
@@ -16,7 +20,7 @@
     object-fit: cover;
 }
 
-.banner-btn {
+.form-btn {
     position: relative;
     background: #f16529;
     width: 290px;
@@ -26,7 +30,7 @@
     bottom: 32px;
 }
 
-.banner-btn-text {
+.form-btn-text {
     position: relative;
     width: 237px;
     height: 21px;
@@ -126,10 +130,11 @@
     border: 1px solid #DCDCDC;
     margin-left: 1em;
     margin-right: 1em;
+    margin-bottom: 30px;
     width: auto;
     height: 330px;
     display: flex;
-    margin-bottom: 30px;
+
 }
 
 .profile-picture {
@@ -160,7 +165,7 @@
     color: #3F3F3F;
 }
 
-.app-form {
+#app-form {
     flex-direction: column;
     background-color: rgba(63, 63, 63, 0.6);
     margin-left: 1em;
@@ -210,6 +215,7 @@
 input {
     padding-left: 10px;
 }
+
 .input-btn {
     position: relative;
     width: 290px;
