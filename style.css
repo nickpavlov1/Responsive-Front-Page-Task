@@ -6,8 +6,13 @@
 }
 
 html {
+    width: 100%;
     scroll-behavior: smooth;
   }
+
+body {
+    width: 100%;
+}
 
 .banner-wrapper {
     width: 100%;
@@ -15,72 +20,97 @@ html {
 
 .banner-img {
     position: relative;
-    width: 100vw;
-    height: 250px;
+    width: 100%;
+    height: 18.5rem;
     object-fit: cover;
+    object-position: 54.5%;
 }
 
 .form-btn {
-    position: relative;
     background: #f16529;
-    width: 290px;
-    height: 32px;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    bottom: 32px;
+    margin: 0 50% 2em 50%;
+    width: 25.5em;
+    height: 2.5em;
+    transform: translate( -50%, -160%);
+    border: none;
+    outline: none;
+}
+
+@media only screen and (max-width: 320px) {
+    .form-btn {
+        width: 22em;
+    }
+
+    div.step-title {
+        font-size: 20px;
+    }
+
+    div.step-desc {
+        font-size: 18px;
+    }
+
+    div.content-secondary {
+        margin: 2.4em 1em 2.4em 1em;
+    }
+
+    div.profile {
+        padding-bottom: 1.5em;
+    }
+
+    input.form-input {
+        width: 19em;
+    }
+
+    button.input-btn {
+        width: 19em;
+    }
+
+    div.icon-container {
+        margin-left: 16vw;
+        margin-right: 16vw;
+    }
 }
 
 .form-btn-text {
     position: relative;
-    width: 237px;
-    height: 21px;
+    width: 15em;
+    height: 1.16em;
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-size: 16px;
+    font-size: 18px;
     margin: auto;
-    margin-top: 1px;
     text-transform: uppercase;
     color: #FFFFFF;
 }
 
 .content-title {
-    position: relative;
     text-align: center;
-    margin-bottom: 45px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
+    font-weight: bold;
+    font-size: 28px;
+    margin: -0.4em 1.2em 2.4em 1.2em;
     color: #3F3F3F;
 }
 
 .step {
-    position: relative;
     border: 1px solid #DCDCDC;
-    margin-left: 1em;
-    margin-right: 1em;
-    width: auto;
-    height: 110px;
-    display: flex;
-    margin-top: -15px;
-    z-index: 10;
+    margin: -0.75em 1em 0 1em;
+    height: 6.6em;
 }
 
 .step-num {
-    margin-top: -13px;
-    margin-left: 20px;
+    margin: -0.13em 0 0 0.17em;
     position: absolute;
     color: #3F3F3F;
-    font-size: 115px;
+    font-size: 113px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+    font-weight: bolder;
+    transform: scale(1.1, 1);
 }
 
 
 .step-content {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 29vw;
+    margin: 0.64em 0 0 6.5em;
 }
 
 
@@ -89,121 +119,100 @@ html {
     font-weight: 700;
     font-size: 22px;
     color: #3F3F3F;
-    margin-bottom: 13px;
-    margin-top: 5px;
+    margin-bottom: 0.45em;
 }
 
 .step-desc {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 16px;
-    width: 160px;
+    font-size: 19px;
+    width: 11em;
 }
 
 .triangle {
     position: relative;
     width: 0;
     height: 0;
-    border-left: 40px solid transparent;
-    border-right: 40px solid transparent;
-    border-top: 40px solid #1699D3;
+    border-left: 32px solid transparent;
+    border-right: 32px solid transparent;
+    border-top: 34px solid #1699D3;
     margin-left: auto;
     margin-right: auto;
-    z-index: 11;
 }
 
 .content-secondary {
     font-family: 'Roboto', sans-serif;
-    left: 2vw;
-    margin-top: 55px;
-    margin-bottom: 55px;
-    font-style: normal;
+    margin: 2.4em 0 2.4em 0;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 28px;
     text-align: center;
     color: #3F3F3F;
 }
 
 .profile {
+    display: flex;
     flex-direction: column;
     border: 1px solid #DCDCDC;
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-bottom: 30px;
+    margin: 0 1em 2em 1em;
     width: auto;
-    height: 330px;
-    display: flex;
-
+    height: 19.5em;
 }
 
 .profile-picture {
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 35px;
-    height: 100px;
+    margin: 1.5em auto 1.9em auto;
     border-radius: 50%;
 }
 
 .profile-title {
     text-align: center;
-    font-size: 19px;
-    font-weight: bold;
-    margin-bottom: 23px;
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 1em;
     color: #3F3F3F;
 }
 
 .profile-desc {
+    margin: 0 2em 0 2em;
     text-align: center;
-    font-size: 16px;
-    margin-left: 12vw;
-    margin-right: 12vw;
-    margin-bottom: 20px;
+    font-size: 18px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #3F3F3F;
 }
 
 #app-form {
+    display: flex;
     flex-direction: column;
     background-color: rgba(63, 63, 63, 0.6);
-    margin-left: 1em;
-    margin-right: 1em;
-    width: auto;
-    height: 350px;
-    display: flex;
-    margin-top: 40px;
-    margin-bottom: 45px;
+    margin: 0 1em 3em 1em;
+    height: 21.5em;
 }
 
 .form-title {
-    text-align: center;
-    margin-top: 70px;
-    font-size: 24px;
-    color: #ffffff;
+    margin: 2em 0.9em 1.2em 0.9em;
     font-family: 'Roboto', sans-serif;
-    margin-left: 7vw;
-    margin-right: 7vw;
-    margin-bottom: 40px;
+    text-align: center;
+    font-size: 28px;
+    color: #ffffff;
 }
 
 .form-input {
     position: relative;
     align-self: center;
-    width: 290px;
-    height: 60px;
+    width: 20.5em;
+    height: 4.9em;
     background: #FFFFFF;
     border: 1px solid #E1D5D5;
     box-sizing: border-box;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-bottom: 22px;
+    margin-bottom: 1.2em;
+    outline: none;
 }
 
 ::placeholder {
-    position: absolute;
-    width: 48px;
-    height: 21px;
+    width: 20.5em;
+    height: 4.9em;
     margin-top: 10px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -214,26 +223,27 @@ html {
 
 input {
     padding-left: 10px;
+    font-weight: bold;
 }
 
 .input-btn {
     position: relative;
-    width: 290px;
-    height: 60px;
+    width: 20.5em;
+    height: 4.9em;
     background: #FFDE25;
-    cursor: pointer;
     align-self: center;
+    border: none;
+    outline: none;
 }
 
 .btn-text {
     position: relative;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
     text-transform: uppercase;
     color: #fff;
-    padding-right: 26px;
-    padding-left: 26px;
+    padding: 0.2em 0.3em 0 0.3em;
+    word-spacing: 2px;
 }
 
 .icon-container {
@@ -258,8 +268,8 @@ input {
 }
 
 .footer {
-    margin-top: 17px;
-    height: 280px;
+    margin-top: 1em;
+    padding-bottom: 2em;
     background: rgba(220, 220, 220, 0.6);
 }
 
@@ -270,19 +280,16 @@ input {
 }
 
 .link {
-    margin-top: 17px;
+    margin-top: 1.2em;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #373737;
 }
 
 .footer-desc {
-    position: relative;
-    margin-top: 20px;
+    margin: 1.2em 1.5em 0 1.5em;
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: 16px;
-    margin-left: 4vw;
-    margin-right: 4vw;
-    color: #373737;
+    font-size: 18px;
 }
+
