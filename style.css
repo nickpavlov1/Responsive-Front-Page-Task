@@ -28,7 +28,7 @@ html, body {
 .scroll-btn-phone {
     background: #f16529;
     margin: 0 50% 2em 50%;
-    width: 22em;
+    width: 21.6em;
     height: 2.4em;
     transform: translate( -50%, -160%);
     border: none;
@@ -144,12 +144,19 @@ html, body {
     color: #3F3F3F;
 }
 
+.input-form-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #app-form-phone {
     display: flex;
     flex-direction: column;
     background-color: rgba(63, 63, 63, 0.6);
     margin: 0 1em 3em 1em;
     height: 18.4em;
+    width: 17.938rem;
 }
 
 .form-title-phone {
@@ -408,13 +415,18 @@ input {
         font-size: 16px;
     }
 
+    div.scroll-btn-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     button.scroll-btn-web {
         display: initial;
         background: #f16529;
-        margin: 9em 50% 0 50%;
+        margin: 1.5em 0 7.6em 0;
         width: 40.6em;
         height: 4.6em;
-        transform: translate(-50%, -160%);
         border: none;
         outline: none;
     }
@@ -555,10 +567,6 @@ input {
 
     div.profile-title {
         margin-bottom: 0.585em;
-    }
-
-    button.scroll-btn-web {
-        margin: 9em 50% 3em 50%;
     }
 
     div.footer-desc {
