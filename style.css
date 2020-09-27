@@ -476,6 +476,19 @@ input {
         margin: 1em 3.2em 0 3.2em;
     }
 
+    div#notification {
+        position: relative;
+        bottom: 58.5rem;
+        left: 37rem;
+        font-weight: 500;
+        padding-top: 2rem;
+        text-align: center;
+        background-color: rgba(138, 184, 92, 0.6);
+        font-size: 17px;
+        width: 19rem;
+        height: 5rem;
+    }
+
 @media only screen and (min-width: 1920px) {
 
     div.banner-wrapper {
