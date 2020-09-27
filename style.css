@@ -455,33 +455,3 @@ input {
     }
 
 }
-
-/* @media only screen and (min-width: 1025px) {
-
-    div.banner-wrapper {
-        height: 24.5em;
-    }
-
-    img.banner-img {
-        height: 24.5em;
-    }
-
-    div#app-form-web {
-        margin: -5em 16.5em 0 48em;
-        height: 24.5em;
-    }
-
-    div.form-title-web {
-        margin: 4.4em 0.9em 1.1em 0.9em;
-    }
-
-    input.form-input-web {
-        width: 14em;
-        height: 3.6em;
-    }
-
-    button.input-btn-web {  
-        width: 14em;
-        height: 3.6em;
-    }
-} */
