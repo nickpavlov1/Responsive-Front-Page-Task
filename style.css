@@ -5,14 +5,12 @@
     padding: 0;
 }
 
-html {
+html, body {
     width: 100%;
+    height: 100%;
     scroll-behavior: smooth;
   }
 
-body {
-    width: 100%;
-}
 
 .banner-wrapper {
     width: 100%;
@@ -21,12 +19,12 @@ body {
 .banner-img {
     position: relative;
     width: 100%;
-    height: 18.5rem;
+    height: 18.5em;
     object-fit: cover;
     object-position: 54.5%;
 }
 
-.form-btn {
+.scroll-btn-phone {
     background: #f16529;
     margin: 0 50% 2em 50%;
     width: 25.5em;
@@ -36,42 +34,7 @@ body {
     outline: none;
 }
 
-@media only screen and (max-width: 320px) {
-    .form-btn {
-        width: 22em;
-    }
-
-    div.step-title {
-        font-size: 20px;
-    }
-
-    div.step-desc {
-        font-size: 18px;
-    }
-
-    div.content-secondary {
-        margin: 2.4em 1em 2.4em 1em;
-    }
-
-    div.profile {
-        padding-bottom: 1.5em;
-    }
-
-    input.form-input {
-        width: 19em;
-    }
-
-    button.input-btn {
-        width: 19em;
-    }
-
-    div.icon-container {
-        margin-left: 16vw;
-        margin-right: 16vw;
-    }
-}
-
-.form-btn-text {
+.scroll-btn-text-phone {
     position: relative;
     width: 15em;
     height: 1.16em;
@@ -124,7 +87,6 @@ body {
 
 .step-desc {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
     font-weight: 300;
     font-size: 19px;
     width: 11em;
@@ -181,7 +143,7 @@ body {
     color: #3F3F3F;
 }
 
-#app-form {
+#app-form-phone {
     display: flex;
     flex-direction: column;
     background-color: rgba(63, 63, 63, 0.6);
@@ -189,7 +151,7 @@ body {
     height: 21.5em;
 }
 
-.form-title {
+.form-title-phone {
     margin: 2em 0.9em 1.2em 0.9em;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -197,7 +159,7 @@ body {
     color: #ffffff;
 }
 
-.form-input {
+.form-input-phone {
     position: relative;
     align-self: center;
     width: 20.5em;
@@ -226,7 +188,7 @@ input {
     font-weight: bold;
 }
 
-.input-btn {
+.input-btn-phone {
     position: relative;
     width: 20.5em;
     height: 4.9em;
@@ -236,7 +198,7 @@ input {
     outline: none;
 }
 
-.btn-text {
+.form-btn-text-phone {
     position: relative;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -257,14 +219,6 @@ input {
     margin-left: 15px;
     margin-bottom: 25px;
     margin-right: 15px;
-}
-
-.second-row-icons {
-    margin-left: 15px;
-}
-
-.last-row-icon {
-    margin-left: 46px;
 }
 
 .footer {
@@ -291,5 +245,237 @@ input {
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
+    color: #373737;
+}
+
+#app-form-web {
+    display: none;
+}
+
+.scroll-btn-web {
+    display: none;
+}
+
+@media only screen and (max-width: 320px) {
+
+    div#app-form-web {
+        display: none;
+    }
+
+    button.scroll-btn-web {
+        display: none;
+    }
+
+    
+    div.scroll-btn-phone {
+        width: 22em;
+    }
+
+    div.step-title {
+        font-size: 20px;
+    }
+
+    div.step-desc {
+        font-size: 18px;
+    }
+
+    div.content-secondary {
+        margin: 2.4em 1em 2.4em 1em;
+    }
+
+    div.profile {
+        padding-bottom: 1.5em;
+    }
+
+    input.form-input-phone {
+        width: 19em;
+    }
+
+    button.input-btn-phone {
+        width: 19em;
+    }
+
+    div.icon-container {
+        margin-left: 16vw;
+        margin-right: 16vw;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    div.banner-wrapper {
+        height: 18.5em;
+    }
+
+    img.banner-img {
+        height: 19.5em;
+    }
+
+    div#app-form-phone {
+        display: none;
+    }
+
+    div#app-form-web {
+        position: relative;
+        bottom: 20em;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(63, 63, 63, 0.6);
+        margin: 0 0.5em 0 51%;
+        height: 19.75em;
+    }
+
+    div.form-title-web {
+        margin: 1.8em 0.9em 1.1em 0.9em;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-size: 27px;
+        color: #ffffff;
+    }
+
+    input.form-input-web {
+        position: relative;
+        align-self: center;
+        width: 23.2em;
+        height: 4.7em;
+        background: #FFFFFF;
+        border: 1px solid #E1D5D5;
+        box-sizing: border-box;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-bottom: 1.2em;
+        outline: none;
+    }
+
+    button.input-btn-web {
+        position: relative;
+        width: 20.5em;
+        height: 4.9em;
+        background: #FFDE25;
+        align-self: center;
+        border: none;
+        outline: none;
+    }
+
+    button.input-btn-web {
+        width: 23.2em;
+        height: 4.7em;
+    }
+    div.form-btn-text-web {
+        position: relative;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #fff;
+        padding: 0.2em 0.3em 0 0.3em;
+        word-spacing: 2px;
+    }
+
+    div.content-title {
+        margin: 1.4em 1.2em 2.4em 1.2em;
+        font-size: 37px;
+    }
+
+    div.step {
+        margin: -1em 1em 0 1em;
+    }
+
+    div.step-num {
+        margin: -0.13em 0 0 0.34em;
+    }
+
+    div.step-desc {
+        width: 17em;
+    }
+
+    div.step-content {
+        margin: 1.2em 0 0 8.5em;
+    }
+
+    div.triangle {
+        margin-left: 39.2em;
+        border-left: 46px solid transparent;
+        border-right: 46px solid transparent;
+        border-top: 48px solid #1699D3;
+    }
+
+    div.profile {
+        margin: 0 5.6em 2em 5.6em;
+        height: 10em;
+        display: flow-root;
+        flex-direction: initial;
+    }
+
+    img.profile-picture {
+        margin: 1.5em auto 1.9em 1.85em;
+    }
+
+    div.profile-content {
+        position: relative;
+        bottom: 8.3em;
+    }
+
+    div.profile-title {
+        text-align: left;
+        margin-left: 8.3em;
+    }
+
+    div.profile-desc {
+        text-align: left;
+        margin-left: 8.3em;
+        margin: 0 1.5em 0 8.28em;
+    }
+
+    button.scroll-btn-phone {
+        display: none;
+    }
+
+    button.scroll-btn-web {
+        background: #f16529;
+        margin: 9em 50% 0 50%;
+        width: 44.1em;
+        height: 4.6em;
+        transform: translate( -50%, -160%);
+        border: none;
+        outline: none;
+    }
+
+    div.scroll-btn-text-web {
+        position: relative;
+        width: 15em;
+        height: 1.16em;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15.5px;
+        margin: auto;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    div.link-container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    a.link {
+        margin: 1em 1em 0 1em;
+    }
+
+    div.icon-container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        bottom: 2.45em;
+    }
+
+    a.link {
+        font-size: 19px;
+    }
+
+    div.footer-desc {
+        font-size: 19px;
+        margin: 1.2em 3.2em 0 3.2em;
+    }
+
 }
 
