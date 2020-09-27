@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 html, body {
@@ -86,7 +87,6 @@ html, body {
 }
 
 .step-desc {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 300;
     font-size: 16px;
     width: 11em;
@@ -141,7 +141,6 @@ html, body {
     margin: 0 2em 0 2em;
     text-align: center;
     font-size: 16px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #3F3F3F;
 }
 
@@ -161,7 +160,7 @@ html, body {
     color: #ffffff;
 }
 
-.form-input-phone {
+#form-input-phone {
     position: relative;
     align-self: center;
     width: 18em;
@@ -233,7 +232,6 @@ input {
 
 .link {
     margin-top: 1.2em;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16.5px;
     color: #373737;
 }
@@ -241,7 +239,6 @@ input {
 .footer-desc {
     margin: 1.2em 0.8em -1em 0.8em;
     text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16.5px;
     color: #373737;
 }
@@ -257,13 +254,12 @@ input {
 @media only screen and (min-width: 720px) {
 
     div.banner-wrapper {
-        height: 18.5em;
-
+        height: 300px;
     }
 
     img.banner-img {
-        height: 18.5em;
-        object-position: 49%;
+        height: 300px;
+        object-position: 50%;
     }
 
     div#app-form-phone {
@@ -280,8 +276,9 @@ input {
         display: flex;
         flex-direction: column;
         background-color: rgba(63, 63, 63, 0.6);
-        margin: 0 0.8em 0 52.5%;
-        height: 19.75em;
+        margin: 0 0.8rem 0 52.5%;
+        height: 19.75rem;
+        width: 20.45rem;
     }
 
     div.form-title-web {
@@ -292,7 +289,7 @@ input {
         color: #ffffff;
     }
 
-    input.form-input-web {
+    input#form-input-web {
         position: relative;
         align-self: center;
         width: 20.7em;
@@ -321,7 +318,6 @@ input {
     }
     div.form-btn-text-web {
         position: relative;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 18px;
         text-transform: uppercase;
         color: #fff;
@@ -419,7 +415,6 @@ input {
         position: relative;
         width: 15em;
         height: 1.16em;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-weight: 500;
         font-size: 16px;
         margin: auto;
@@ -458,17 +453,17 @@ input {
 @media only screen and (min-width: 1920px) {
 
     div.banner-wrapper {
-        height: 38em;
+        height: 600px;
     }
 
     img.banner-img {
-        height: 38em;
+        height: 600px;
     }
 
     div#app-form-web {
         height: 38em;
         bottom: 38.3em;
-        margin: 0 24.95em 0 73.1em;
+        margin: 0 58% 0 60.75%;
     }
 
     div.form-title-web {
@@ -476,7 +471,7 @@ input {
         margin: 5.25em 1.5em 0.35em 1.5em;
     }
 
-    input.form-input-web {
+    input#form-input-web {
         width: 21.85em;
     }
 
@@ -544,6 +539,10 @@ input {
         height: 10em;
     }
 
+    div.profile-title {
+        margin-bottom: 0.585em;
+    }
+
     button.scroll-btn-web {
         margin: 9em 50% 3em 50%;
     }
@@ -551,5 +550,7 @@ input {
     div.footer-desc {
         margin: 1em 27.5em 0 27.5em;
     }
+
 }
+
 }
