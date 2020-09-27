@@ -210,12 +210,20 @@ input {
 }
 
 .icon-container {
-    vertical-align: middle;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-left: 3em;
+    margin-right: 3em;
+}
+
+.icon-inner-container {
+    position: relative;
+    left: 0.44rem;
 }
 
 .icon {
-    margin: 0 1em 0.9em 1em;
+    margin: 0 0.3rem 1.9rem 0.3rem;
 }
 
 .footer {
@@ -434,11 +442,17 @@ input {
 
     div.icon-container {
         position: relative;
-        display: flex;
+        bottom: 2.8rem;
         align-items: center;
         justify-content: center;
-        bottom: 2.45em;
-        margin-left: 0;
+    }
+
+    div.icon-inner-container {
+        position: initial;
+    }
+
+    img.icon  {
+        margin: 0 1rem 0.9rem 1rem;
     }
 
     a.link {
