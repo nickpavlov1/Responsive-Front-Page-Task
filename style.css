@@ -19,16 +19,16 @@ html, body {
 .banner-img {
     position: relative;
     width: 100%;
-    height: 18.5em;
+    height: 15.75em;
     object-fit: cover;
-    object-position: 54.5%;
+    object-position: 54.68%;
 }
 
 .scroll-btn-phone {
     background: #f16529;
     margin: 0 50% 2em 50%;
-    width: 25.5em;
-    height: 2.5em;
+    width: 22em;
+    height: 2.4em;
     transform: translate( -50%, -160%);
     border: none;
     outline: none;
@@ -39,7 +39,7 @@ html, body {
     width: 15em;
     height: 1.16em;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     margin: auto;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -50,22 +50,22 @@ html, body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 28px;
-    margin: -0.4em 1.2em 2.4em 1.2em;
+    font-size: 24px;
+    margin: -0.9em 1.2em 2.4em 1.2em;
     color: #3F3F3F;
 }
 
 .step {
     border: 1px solid #DCDCDC;
     margin: -0.75em 1em 0 1em;
-    height: 6.6em;
+    height: 5.9em;
 }
 
 .step-num {
-    margin: -0.13em 0 0 0.17em;
+    margin: -0.13em 0 0 0.14em;
     position: absolute;
     color: #3F3F3F;
-    font-size: 113px;
+    font-size: 100px;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     transform: scale(1.1, 1);
@@ -73,22 +73,22 @@ html, body {
 
 
 .step-content {
-    margin: 0.64em 0 0 6.5em;
+    margin: 0.6em 0 0 5.4em;
 }
 
 
 .step-title {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 19px;
     color: #3F3F3F;
-    margin-bottom: 0.45em;
+    margin-bottom: 0.65em;
 }
 
 .step-desc {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 300;
-    font-size: 19px;
+    font-size: 16px;
     width: 11em;
 }
 
@@ -96,18 +96,19 @@ html, body {
     position: relative;
     width: 0;
     height: 0;
-    border-left: 32px solid transparent;
-    border-right: 32px solid transparent;
-    border-top: 34px solid #1699D3;
+    border-left: 28px solid transparent;
+    border-right: 28px solid transparent;
+    border-top: 30px solid #1699D3;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 .content-secondary {
     font-family: 'Roboto', sans-serif;
     margin: 2.4em 0 2.4em 0;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 24px;
     text-align: center;
     color: #3F3F3F;
 }
@@ -118,7 +119,7 @@ html, body {
     border: 1px solid #DCDCDC;
     margin: 0 1em 2em 1em;
     width: auto;
-    height: 19.5em;
+    height: 18.2em;
 }
 
 .profile-picture {
@@ -129,7 +130,7 @@ html, body {
 .profile-title {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     margin-bottom: 1em;
     color: #3F3F3F;
@@ -138,7 +139,7 @@ html, body {
 .profile-desc {
     margin: 0 2em 0 2em;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #3F3F3F;
 }
@@ -148,22 +149,22 @@ html, body {
     flex-direction: column;
     background-color: rgba(63, 63, 63, 0.6);
     margin: 0 1em 3em 1em;
-    height: 21.5em;
+    height: 18.4em;
 }
 
 .form-title-phone {
     margin: 2em 0.9em 1.2em 0.9em;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size: 28px;
+    font-size: 24px;
     color: #ffffff;
 }
 
 .form-input-phone {
     position: relative;
     align-self: center;
-    width: 20.5em;
-    height: 4.9em;
+    width: 18em;
+    height: 4.5em;
     background: #FFFFFF;
     border: 1px solid #E1D5D5;
     box-sizing: border-box;
@@ -173,8 +174,8 @@ html, body {
 }
 
 ::placeholder {
-    width: 20.5em;
-    height: 4.9em;
+    width: 18em;
+    height: 4.5em;
     margin-top: 10px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -190,8 +191,8 @@ input {
 
 .input-btn-phone {
     position: relative;
-    width: 20.5em;
-    height: 4.9em;
+    width: 18em;
+    height: 4.5em;
     background: #FFDE25;
     align-self: center;
     border: none;
@@ -210,20 +211,16 @@ input {
 
 .icon-container {
     vertical-align: middle;
-    margin-left: 20vw;
-    margin-right: 20vw;
-
+    margin-left: 3em;
 }
 
 .icon {
-    margin-left: 15px;
-    margin-bottom: 25px;
-    margin-right: 15px;
+    margin: 0 1em 0.9em 1em;
 }
 
 .footer {
     margin-top: 1em;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
     background: rgba(220, 220, 220, 0.6);
 }
 
@@ -236,15 +233,15 @@ input {
 .link {
     margin-top: 1.2em;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 18px;
+    font-size: 16.5px;
     color: #373737;
 }
 
 .footer-desc {
-    margin: 1.2em 1.5em 0 1.5em;
+    margin: 1.2em 0.8em -1em 0.8em;
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 18px;
+    font-size: 16.5px;
     color: #373737;
 }
 
@@ -256,62 +253,23 @@ input {
     display: none;
 }
 
-@media only screen and (max-width: 320px) {
-
-    div#app-form-web {
-        display: none;
-    }
-
-    button.scroll-btn-web {
-        display: none;
-    }
-
-    
-    div.scroll-btn-phone {
-        width: 22em;
-    }
-
-    div.step-title {
-        font-size: 20px;
-    }
-
-    div.step-desc {
-        font-size: 18px;
-    }
-
-    div.content-secondary {
-        margin: 2.4em 1em 2.4em 1em;
-    }
-
-    div.profile {
-        padding-bottom: 1.5em;
-    }
-
-    input.form-input-phone {
-        width: 19em;
-    }
-
-    button.input-btn-phone {
-        width: 19em;
-    }
-
-    div.icon-container {
-        margin-left: 16vw;
-        margin-right: 16vw;
-    }
-}
-
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 720px) {
 
     div.banner-wrapper {
         height: 18.5em;
+
     }
 
     img.banner-img {
-        height: 19.5em;
+        height: 18.5em;
+        object-position: 49%;
     }
 
     div#app-form-phone {
+        display: none;
+    }
+
+    button.scroll-btn-phone {
         display: none;
     }
 
@@ -321,35 +279,35 @@ input {
         display: flex;
         flex-direction: column;
         background-color: rgba(63, 63, 63, 0.6);
-        margin: 0 0.5em 0 51%;
+        margin: 0 0.8em 0 52.5%;
         height: 19.75em;
     }
 
     div.form-title-web {
-        margin: 1.8em 0.9em 1.1em 0.9em;
+        margin: 2.75em 1.5em 1.5em 1.5em;
         font-family: 'Roboto', sans-serif;
         text-align: center;
-        font-size: 27px;
+        font-size: 23px;
         color: #ffffff;
     }
 
     input.form-input-web {
         position: relative;
         align-self: center;
-        width: 23.2em;
-        height: 4.7em;
+        width: 20.7em;
+        height: 4.4em;;
         background: #FFFFFF;
         border: 1px solid #E1D5D5;
         box-sizing: border-box;
         box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-        margin-bottom: 1.2em;
+        margin-bottom: 1.1em;
         outline: none;
     }
 
     button.input-btn-web {
         position: relative;
-        width: 20.5em;
-        height: 4.9em;
+        width: 20.7em;
+        height: 4.4em;
         background: #FFDE25;
         align-self: center;
         border: none;
@@ -357,8 +315,8 @@ input {
     }
 
     button.input-btn-web {
-        width: 23.2em;
-        height: 4.7em;
+        width: 20.7em;
+        height: 4.4em;
     }
     div.form-btn-text-web {
         position: relative;
@@ -371,8 +329,8 @@ input {
     }
 
     div.content-title {
-        margin: 1.4em 1.2em 2.4em 1.2em;
-        font-size: 37px;
+        margin: 1.4em 3em 2.4em 4em;
+        font-size: 33px;
     }
 
     div.step {
@@ -380,27 +338,37 @@ input {
     }
 
     div.step-num {
-        margin: -0.13em 0 0 0.34em;
+        margin: -0.13em 0 0 0.3em;
+    }
+
+    div.step-title {
+        font-size: 18px;
+        margin-bottom: 0.8em;
     }
 
     div.step-desc {
         width: 17em;
+        font-size: 16.5px;
     }
 
     div.step-content {
-        margin: 1.2em 0 0 8.5em;
+        margin: 1.2em 0 0 7.2em;
     }
 
     div.triangle {
-        margin-left: 39.2em;
-        border-left: 46px solid transparent;
-        border-right: 46px solid transparent;
-        border-top: 48px solid #1699D3;
+        margin-left: 37em;
+        border-left: 42px solid transparent;
+        border-right: 42px solid transparent;
+        border-top: 42px solid #1699D3;
+    }
+
+    div.content-secondary {
+        font-size: 22px;
     }
 
     div.profile {
         margin: 0 5.6em 2em 5.6em;
-        height: 10em;
+        height: 9.5em;
         display: flow-root;
         flex-direction: initial;
     }
@@ -412,29 +380,36 @@ input {
     div.profile-content {
         position: relative;
         bottom: 8.3em;
+        margin-left: 0.8em;
+    }
+
+    div#profile-two {
+        margin-left: 1.5em;
+    }
+
+    div#profile-desc-two {
+        margin: 0 1em 0 8.3em;
     }
 
     div.profile-title {
         text-align: left;
         margin-left: 8.3em;
+        font-size: 16px;
     }
 
     div.profile-desc {
         text-align: left;
-        margin-left: 8.3em;
-        margin: 0 1.5em 0 8.28em;
-    }
-
-    button.scroll-btn-phone {
-        display: none;
+        margin: 0 1.5em 0 8.3em;
+        font-size: 16px;
     }
 
     button.scroll-btn-web {
+        display: initial;
         background: #f16529;
         margin: 9em 50% 0 50%;
-        width: 44.1em;
+        width: 40.6em;
         height: 4.6em;
-        transform: translate( -50%, -160%);
+        transform: translate(-50%, -160%);
         border: none;
         outline: none;
     }
@@ -443,8 +418,9 @@ input {
         position: relative;
         width: 15em;
         height: 1.16em;
-        font-family: 'Roboto', sans-serif;
-        font-size: 15.5px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
         margin: auto;
         text-transform: uppercase;
         color: #FFFFFF;
@@ -466,16 +442,46 @@ input {
         align-items: center;
         justify-content: center;
         bottom: 2.45em;
+        margin-left: 0;
     }
 
     a.link {
-        font-size: 19px;
+        font-size: 16.5px;
     }
 
     div.footer-desc {
-        font-size: 19px;
-        margin: 1.2em 3.2em 0 3.2em;
+        font-size: 16.5px;
+        margin: 1em 3.2em 0 3.2em;
     }
 
 }
 
+/* @media only screen and (min-width: 1025px) {
+
+    div.banner-wrapper {
+        height: 24.5em;
+    }
+
+    img.banner-img {
+        height: 24.5em;
+    }
+
+    div#app-form-web {
+        margin: -5em 16.5em 0 48em;
+        height: 24.5em;
+    }
+
+    div.form-title-web {
+        margin: 4.4em 0.9em 1.1em 0.9em;
+    }
+
+    input.form-input-web {
+        width: 14em;
+        height: 3.6em;
+    }
+
+    button.input-btn-web {  
+        width: 14em;
+        height: 3.6em;
+    }
+} */
